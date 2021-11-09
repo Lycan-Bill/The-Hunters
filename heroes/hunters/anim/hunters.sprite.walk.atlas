@@ -1,0 +1,251 @@
+
+hunters.sprite.walk.png
+size: 1376,531
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+A  leg R
+  rotate: false
+  xy: 1113, 7
+  size: 74, 179
+  orig: 74, 179
+  offset: 0, 0
+  index: -1
+A arm L
+  rotate: false
+  xy: 1140, 189
+  size: 65, 173
+  orig: 65, 173
+  offset: 0, 0
+  index: -1
+A arm R
+  rotate: false
+  xy: 860, 314
+  size: 74, 215
+  orig: 74, 215
+  offset: 0, 0
+  index: -1
+A bow tie
+  rotate: false
+  xy: 302, 116
+  size: 49, 35
+  orig: 49, 35
+  offset: 0, 0
+  index: -1
+A chest
+  rotate: false
+  xy: 2, 116
+  size: 148, 413
+  orig: 148, 413
+  offset: 0, 0
+  index: -1
+A hammer
+  rotate: false
+  xy: 1207, 289
+  size: 88, 73
+  orig: 88, 73
+  offset: 0, 0
+  index: -1
+A hand L
+  rotate: false
+  xy: 1189, 2
+  size: 62, 70
+  orig: 62, 70
+  offset: 0, 0
+  index: -1
+A head
+  rotate: false
+  xy: 500, 24
+  size: 116, 127
+  orig: 116, 127
+  offset: 0, 0
+  index: -1
+A leg L
+  rotate: false
+  xy: 936, 332
+  size: 77, 197
+  orig: 77, 197
+  offset: 0, 0
+  index: -1
+A show L
+  rotate: false
+  xy: 1207, 204
+  size: 84, 83
+  orig: 84, 83
+  offset: 0, 0
+  index: -1
+A show R
+  rotate: true
+  xy: 1297, 282
+  size: 80, 74
+  orig: 80, 74
+  offset: 0, 0
+  index: -1
+A stake
+  rotate: true
+  xy: 806, 183
+  size: 91, 46
+  orig: 91, 46
+  offset: 0, 0
+  index: -1
+A suit
+  rotate: false
+  xy: 152, 116
+  size: 148, 413
+  orig: 148, 413
+  offset: 0, 0
+  index: -1
+P  shoulder
+  rotate: false
+  xy: 678, 48
+  size: 257, 115
+  orig: 257, 115
+  offset: 0, 0
+  index: -1
+P arm L
+  rotate: false
+  xy: 2, 7
+  size: 137, 107
+  orig: 137, 107
+  offset: 0, 0
+  index: -1
+P arm R
+  rotate: true
+  xy: 141, 12
+  size: 102, 142
+  orig: 102, 142
+  offset: 0, 0
+  index: -1
+P ascot
+  rotate: false
+  xy: 365, 2
+  size: 133, 126
+  orig: 133, 126
+  offset: 0, 0
+  index: -1
+P back 1
+  rotate: false
+  xy: 538, 165
+  size: 201, 364
+  orig: 201, 364
+  offset: 0, 0
+  index: -1
+P back 2
+  rotate: false
+  xy: 1189, 74
+  size: 176, 113
+  orig: 176, 113
+  offset: 0, 0
+  index: -1
+P bag
+  rotate: true
+  xy: 937, 2
+  size: 182, 174
+  orig: 182, 174
+  offset: 0, 0
+  index: -1
+P beard
+  rotate: false
+  xy: 985, 278
+  size: 67, 52
+  orig: 67, 52
+  offset: 0, 0
+  index: -1
+P belt buckle
+  rotate: false
+  xy: 936, 276
+  size: 47, 54
+  orig: 47, 54
+  offset: 0, 0
+  index: -1
+P cane
+  rotate: false
+  xy: 806, 276
+  size: 52, 253
+  orig: 52, 253
+  offset: 0, 0
+  index: -1
+P garlic
+  rotate: false
+  xy: 618, 39
+  size: 58, 124
+  orig: 58, 124
+  offset: 0, 0
+  index: -1
+P hand L
+  rotate: false
+  xy: 1293, 200
+  size: 81, 80
+  orig: 81, 80
+  offset: 0, 0
+  index: -1
+P hand R
+  rotate: false
+  xy: 1253, 11
+  size: 78, 61
+  orig: 78, 61
+  offset: 0, 0
+  index: -1
+P head
+  rotate: true
+  xy: 1189, 364
+  size: 165, 178
+  orig: 165, 178
+  offset: 0, 0
+  index: -1
+P jacket
+  rotate: false
+  xy: 302, 153
+  size: 234, 376
+  orig: 234, 376
+  offset: 0, 0
+  index: -1
+P leg L
+  rotate: true
+  xy: 854, 186
+  size: 88, 197
+  orig: 88, 197
+  offset: 0, 0
+  index: -1
+P leg R
+  rotate: false
+  xy: 1015, 338
+  size: 114, 191
+  orig: 114, 191
+  offset: 0, 0
+  index: -1
+P mustache
+  rotate: false
+  xy: 353, 130
+  size: 62, 21
+  orig: 62, 21
+  offset: 0, 0
+  index: -1
+P shoe R
+  rotate: false
+  xy: 285, 22
+  size: 78, 92
+  orig: 78, 92
+  offset: 0, 0
+  index: -1
+P show L
+  rotate: false
+  xy: 1053, 188
+  size: 85, 88
+  orig: 85, 88
+  offset: 0, 0
+  index: -1
+P vest
+  rotate: true
+  xy: 1054, 285
+  size: 51, 84
+  orig: 51, 84
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 741, 172
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

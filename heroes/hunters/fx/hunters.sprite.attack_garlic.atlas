@@ -1,0 +1,20 @@
+
+hunters.sprite.attack_garlic.png
+size: 1024,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fx Shadow
+  rotate: false
+  xy: 1, 1
+  size: 950, 905
+  orig: 952, 907
+  offset: 1, 1
+  index: -1
+Light
+  rotate: false
+  xy: 1, 908
+  size: 225, 370
+  orig: 227, 372
+  offset: 1, 1
+  index: -1

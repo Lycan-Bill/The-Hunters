@@ -1,0 +1,34 @@
+
+hunters.sprite.attack_tonic.png
+size: 1580,720
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Light
+  rotate: true
+  xy: 970, 48
+  size: 177, 268
+  orig: 177, 268
+  offset: 0, 0
+  index: -1
+LightBehind
+  rotate: false
+  xy: 1270, 248
+  size: 308, 470
+  orig: 308, 470
+  offset: 0, 0
+  index: -1
+Smoke
+  rotate: false
+  xy: 970, 227
+  size: 298, 491
+  orig: 298, 491
+  offset: 0, 0
+  index: -1
+fx Shadow
+  rotate: false
+  xy: 2, 2
+  size: 966, 716
+  orig: 966, 716
+  offset: 0, 0
+  index: -1

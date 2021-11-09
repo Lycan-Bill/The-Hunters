@@ -1,0 +1,41 @@
+
+hunters.sprite.attack_shoot.png
+size: 702,555
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Capa 32
+  rotate: false
+  xy: 326, 335
+  size: 368, 218
+  orig: 368, 218
+  offset: 0, 0
+  index: -1
+Light
+  rotate: false
+  xy: 326, 47
+  size: 157, 98
+  orig: 157, 98
+  offset: 0, 0
+  index: -1
+fx Shadow
+  rotate: false
+  xy: 2, 2
+  size: 322, 551
+  orig: 322, 551
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: false
+  xy: 326, 147
+  size: 190, 186
+  orig: 190, 186
+  offset: 0, 0
+  index: -1
+smoke light
+  rotate: false
+  xy: 518, 148
+  size: 182, 185
+  orig: 182, 185
+  offset: 0, 0
+  index: -1

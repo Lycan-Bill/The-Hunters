@@ -1,0 +1,826 @@
+{
+	"buffs": [{
+			"id": "heart_stake_dmgS_L",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 0.1,
+			"remove_if_not_active": false,
+			"rule_type": "skill",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "apperentice_heart"
+			}
+		},
+		{
+			"id": "HUNTERS_STUN_VS_VAMPIRE_1",
+			"stat_type": "stun_chance",
+			"stat_sub_type": "",
+			"amount": 0.1,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "HUNTERS_STUN_VS_VAMPIRE_3",
+			"stat_type": "stun_chance",
+			"stat_sub_type": "",
+			"amount": 0.15,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "HUNTERS_STUN_VS_VAMPIRE_4",
+			"stat_type": "stun_chance",
+			"stat_sub_type": "",
+			"amount": 0.2,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "HUNTERS_STUN_VS_VAMPIRE_5",
+			"stat_type": "stun_chance",
+			"stat_sub_type": "",
+			"amount": 0.25,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "heart_stake_dmgS_H",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": 0.15,
+			"remove_if_not_active": false,
+			"rule_type": "skill",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "apperentice_heart"
+			}
+		},
+		{
+			"id": "heart_stake_crit",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "crit_chance",
+			"amount": 0.03,
+			"remove_if_not_active": false,
+			"rule_type": "skill",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "apperentice_heart"
+			}
+		},
+		{
+			"id": "heart_stake_acc",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "attack_rating",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "skill",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "apperentice_heart"
+			}
+		},
+		{
+			"id": "professor_point_mark_1",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "actorStatus",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "tagged"
+			}
+		},
+		{
+			"id": "professor_point_mark_2",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 0.1,
+			"remove_if_not_active": false,
+			"rule_type": "actorStatus",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "tagged"
+			}
+		},
+		{
+			"id": "professor_point_mark_3",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 0.15,
+			"remove_if_not_active": false,
+			"rule_type": "actorStatus",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "tagged"
+			}
+		},
+		{
+			"id": "professor_point_mark_4",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 0.2,
+			"remove_if_not_active": false,
+			"rule_type": "actorStatus",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "tagged"
+			}
+		},
+		{
+			"id": "professor_point_mark_5",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 0.25,
+			"remove_if_not_active": false,
+			"rule_type": "actorStatus",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "tagged"
+			}
+		},
+		{
+			"id": "professor_stun_debuff_1",
+			"stat_type": "resistance",
+			"stat_sub_type": "stun",
+			"amount": -0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "professor_stun_debuff_2",
+			"stat_type": "resistance",
+			"stat_sub_type": "stun",
+			"amount": -0.08,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "professor_stun_debuff_3",
+			"stat_type": "resistance",
+			"stat_sub_type": "stun",
+			"amount": -0.17,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "professor_stun_debuff_4",
+			"stat_type": "resistance",
+			"stat_sub_type": "stun",
+			"amount": -0.2,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "professor_stun_debuff_5",
+			"stat_type": "resistance",
+			"stat_sub_type": "stun",
+			"amount": -0.23,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "professor_mark_crits_received_1",
+			"stat_type": "crit_received_chance",
+			"stat_sub_type": "",
+			"amount": 0.02,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "professor_mark_crits_received_2",
+			"stat_type": "crit_received_chance",
+			"stat_sub_type": "",
+			"amount": 0.03,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "professor_mark_crits_received_3",
+			"stat_type": "crit_received_chance",
+			"stat_sub_type": "",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "professor_mark_crits_received_4",
+			"stat_type": "crit_received_chance",
+			"stat_sub_type": "",
+			"amount": 0.07,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "hunters_heal_done_debuff",
+			"stat_type": "hp_heal_percent",
+			"stat_sub_type": "",
+			"amount": -0.50,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "Hunters_crits_received_1",
+			"stat_type": "crit_received_chance",
+			"stat_sub_type": "",
+			"amount": 0.02,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "Hunters_crits_received_2",
+			"stat_type": "crit_received_chance",
+			"stat_sub_type": "",
+			"amount": 0.02,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "Hunters_crits_received_3",
+			"stat_type": "crit_received_chance",
+			"stat_sub_type": "",
+			"amount": 0.03,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "Hunters_crits_received_4",
+			"stat_type": "crit_received_chance",
+			"stat_sub_type": "",
+			"amount": 0.04,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "Hunters_crits_received_5",
+			"stat_type": "crit_received_chance",
+			"stat_sub_type": "",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+      },
+      {
+         "id" : "professor_garlic_blight_resist_1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "professor_garlic_blight_resist_2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "professor_garlic_blight_resist_3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "professor_garlic_blight_resist_4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "professor_garlic_blight_resist_5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "professor_garlic_bleed_resist_1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "professor_garlic_bleed_resist_2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "professor_garlic_bleed_resist_3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "professor_garlic_bleed_resist_4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "professor_garlic_bleed_resist_5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+          }
+      },
+      {
+         "id" : "hunters_bleed_resist_debuff_1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "hunters_bleed_resist_debuff_2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "hunters_bleed_resist_debuff_3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "hunters_bleed_resist_debuff_4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "hunters_bleed_resist_debuff_5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+		},
+		{
+			"id": "hunters_stake_Bleed_1",
+			"stat_type": "hp_dot_bleed_amount_percent",
+			"stat_sub_type": "",
+			"amount": 0.20,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "hunters_stake_Bleed_2",
+			"stat_type": "hp_dot_bleed_amount_percent",
+			"stat_sub_type": "",
+			"amount": 0.25,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "hunters_stake_Bleed_3",
+			"stat_type": "hp_dot_bleed_amount_percent",
+			"stat_sub_type": "bleed",
+			"amount": 0.30,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "hunters_stake_Bleed_4",
+			"stat_type": "hp_dot_bleed_amount_percent",
+			"stat_sub_type": "",
+			"amount": 0.35,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "hunters_stake_Bleed_5",
+			"stat_type": "hp_dot_bleed_amount_percent",
+			"stat_sub_type": "",
+			"amount": 0.40,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "hunters_stake_Bleed_debuff_1",
+			"stat_type": "hp_dot_bleed_amount_percent",
+			"stat_sub_type": "",
+			"amount": -0.20,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "hunters_stake_Bleed_debuff_2",
+			"stat_type": "hp_dot_bleed_amount_percent",
+			"stat_sub_type": "",
+			"amount": -0.25,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "hunters_stake_Bleed_debuff_3",
+			"stat_type": "hp_dot_bleed_amount_percent",
+			"stat_sub_type": "bleed",
+			"amount": -0.30,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "hunters_stake_Bleed_debuff_4",
+			"stat_type": "hp_dot_bleed_amount_percent",
+			"stat_sub_type": "",
+			"amount": -0.35,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "hunters_stake_Bleed_debuff_5",
+			"stat_type": "hp_dot_bleed_amount_percent",
+			"stat_sub_type": "",
+			"amount": -0.4,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "HUNTERS_PUSH_VS_VAMPIRE_1",
+			"stat_type": "move_chance",
+			"stat_sub_type": "",
+			"amount": 7.0,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "HUNTERS_PUSH_VS_VAMPIRE_2",
+			"stat_type": "move_chance",
+			"stat_sub_type": "",
+			"amount": 7.1,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "HUNTERS_PUSH_VS_VAMPIRE_3",
+			"stat_type": "move_chance",
+			"stat_sub_type": "",
+			"amount": 7.2,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "HUNTERS_PUSH_VS_VAMPIRE_4",
+			"stat_type": "move_chance",
+			"stat_sub_type": "",
+			"amount": 7.3,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			
+			}
+		},
+		{
+			"id": "HUNTERS_PUSH_VS_VAMPIRE_5",
+			"stat_type": "move_chance",
+			"stat_sub_type": "",
+			"amount": 7.4,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "HUNTERS_PUSH_VS_VAMPIRE_DEBUFF_1",
+			"stat_type": "move_chance",
+			"stat_sub_type": "",
+			"amount": -7.0,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "HUNTERS_PUSH_VS_VAMPIRE_DEBUFF_2",
+			"stat_type": "move_chance",
+			"stat_sub_type": "",
+			"amount": -7.1,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "HUNTERS_PUSH_VS_VAMPIRE_DEBUFF_3",
+			"stat_type": "move_chance",
+			"stat_sub_type": "",
+			"amount": -7.2,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			}
+		},
+		{
+			"id": "HUNTERS_PUSH_VS_VAMPIRE_DEBUFF_4",
+			"stat_type": "move_chance",
+			"stat_sub_type": "",
+			"amount": -7.3,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			
+			}
+		},
+		{
+			"id": "HUNTERS_PUSH_VS_VAMPIRE_DEBUFF_5",
+			"stat_type": "move_chance",
+			"stat_sub_type": "",
+			"amount": -7.4,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "vampire"
+			
+			}
+		}
+	]
+}

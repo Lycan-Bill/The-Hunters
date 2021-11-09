@@ -1,0 +1,27 @@
+
+hunters.sprite.attack_throw.png
+size: 1040,609
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+P combat
+  rotate: false
+  xy: 2, 2
+  size: 596, 605
+  orig: 596, 605
+  offset: 0, 0
+  index: -1
+hunter_stake_throw copia
+  rotate: false
+  xy: 600, 108
+  size: 438, 499
+  orig: 438, 499
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 600, 43
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

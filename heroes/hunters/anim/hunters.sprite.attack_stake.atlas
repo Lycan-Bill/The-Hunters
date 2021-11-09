@@ -1,0 +1,27 @@
+
+hunters.sprite.attack_stake.png
+size: 1018,674
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+P combat
+  rotate: false
+  xy: 2, 67
+  size: 596, 605
+  orig: 596, 605
+  offset: 0, 0
+  index: -1
+hunter_stake copia
+  rotate: false
+  xy: 600, 33
+  size: 416, 639
+  orig: 416, 639
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+hunters.sprite.attack_cross.png
+size: 944,585
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+A light
+  rotate: false
+  xy: 605, 5
+  size: 272, 578
+  orig: 272, 578
+  offset: 0, 0
+  index: -1
+hunter_cross copia
+  rotate: true
+  xy: 2, 2
+  size: 581, 601
+  orig: 581, 601
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 879, 226
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

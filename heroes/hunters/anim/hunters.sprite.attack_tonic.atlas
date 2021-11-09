@@ -1,0 +1,27 @@
+
+hunters.sprite.attack_tonic.png
+size: 1253,457
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+A combat
+  rotate: true
+  xy: 682, 156
+  size: 299, 569
+  orig: 299, 569
+  offset: 0, 0
+  index: -1
+professor_tonic copia
+  rotate: true
+  xy: 2, 2
+  size: 453, 678
+  orig: 453, 678
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 682, 91
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

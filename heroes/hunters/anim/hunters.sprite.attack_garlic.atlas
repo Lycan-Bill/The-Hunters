@@ -1,0 +1,27 @@
+
+hunters.sprite.attack_garlic.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 1, 659
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+A combat
+  rotate: false
+  xy: 675, 1
+  size: 295, 564
+  orig: 299, 569
+  offset: 4, 0
+  index: -1
+hunter_garlic copia
+  rotate: false
+  xy: 1, 1
+  size: 672, 656
+  orig: 674, 658
+  offset: 1, 1
+  index: -1

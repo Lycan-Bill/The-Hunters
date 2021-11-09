@@ -1,0 +1,27 @@
+
+hunters.sprite.attack_mark.png
+size: 1020,612
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+A combat
+  rotate: false
+  xy: 654, 41
+  size: 299, 569
+  orig: 299, 569
+  offset: 0, 0
+  index: -1
+hunter_mark copia
+  rotate: false
+  xy: 2, 2
+  size: 650, 608
+  orig: 650, 608
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 955, 253
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

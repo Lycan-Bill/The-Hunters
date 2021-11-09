@@ -1,0 +1,1312 @@
+{
+	"entries":
+	[
+		{
+			"id": "hunters_pass_3",
+			"update_duration_type": "after_turn_attack_kill",
+			"duration_elements": 
+			[
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				},
+				{
+					"completion_chance": 0.00,
+					"completion_effects":
+					[],
+					"increment_effects":
+					[
+						"professor_go"
+
+
+
+
+					]
+				}
+			]
+		}
+	]
+}

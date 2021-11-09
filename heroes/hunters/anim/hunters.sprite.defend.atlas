@@ -1,0 +1,20 @@
+
+hunters.sprite.defend.png
+size: 634,562
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+defend
+  rotate: true
+  xy: 2, 2
+  size: 558, 565
+  orig: 558, 565
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 569, 203
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+hunters.sprite.attack_mark.png
+size: 936,488
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Light #1
+  rotate: true
+  xy: 833, 271
+  size: 215, 101
+  orig: 215, 101
+  offset: 0, 0
+  index: -1
+Shadow #3
+  rotate: true
+  xy: 2, 2
+  size: 484, 829
+  orig: 484, 829
+  offset: 0, 0
+  index: -1

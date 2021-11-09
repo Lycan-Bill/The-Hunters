@@ -1,0 +1,27 @@
+
+hunters.sprite.afflicted.png
+size: 2422,1139
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aflic
+  rotate: false
+  xy: 1345, 299
+  size: 1075, 838
+  orig: 1075, 838
+  offset: 0, 0
+  index: -1
+background
+  rotate: false
+  xy: 2, 10
+  size: 1341, 1127
+  orig: 1341, 1127
+  offset: 0, 0
+  index: -1
+crown
+  rotate: false
+  xy: 1345, 2
+  size: 368, 295
+  orig: 368, 295
+  offset: 0, 0
+  index: -1

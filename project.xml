@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<PreviewIconFile>preview_icon.png</PreviewIconFile>
+	<ItemDescriptionShort/>
+	<ModDataPath>C:/Users/Strange/Desktop/hunters/</ModDataPath>
+	<Title>The Hunters</Title>
+	<Language>english</Language>
+	<UpdateDetails/>
+	<Visibility>private</Visibility>
+	<UploadMode>direct_upload</UploadMode>
+	<VersionMajor>1</VersionMajor>
+	<VersionMinor>0</VersionMinor>
+	<TargetBuild>23941</TargetBuild>
+	<Tags>
+		<Tags>New Class</Tags>
+		<Tags>Character Mod</Tags>
+		<Tags>Class Mod</Tags>
+		<Tags>Fanatic</Tags>
+	</Tags>
+	<ItemDescription>Adds a shapeshifting Fanatic as a hero. Why is he shapeshifting? Because some animations were never made.</ItemDescription>
+	<PublishedFileId>2203227739</PublishedFileId>
+</project>
+

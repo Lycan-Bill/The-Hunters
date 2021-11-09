@@ -1,0 +1,27 @@
+
+hunters.sprite.stake_target.png
+size: 287,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blood
+  rotate: false
+  xy: 180, 2
+  size: 27, 138
+  orig: 27, 138
+  offset: 0, 0
+  index: -1
+Heart
+  rotate: true
+  xy: 2, 9
+  size: 131, 176
+  orig: 131, 176
+  offset: 0, 0
+  index: -1
+Stake
+  rotate: false
+  xy: 209, 60
+  size: 76, 80
+  orig: 76, 80
+  offset: 0, 0
+  index: -1

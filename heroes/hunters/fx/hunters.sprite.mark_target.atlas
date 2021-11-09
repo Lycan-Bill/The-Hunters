@@ -1,0 +1,26 @@
+hunters.sprite.mark_target.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LightBehind
+  rotate: false
+  xy: 1, 1
+  size: 489, 491
+  orig: 489, 491
+  offset: 0, 0
+  index: -1
+Heart
+  rotate: false
+  xy: 492, 1
+  size: 130, 175
+  orig: 130, 175
+  offset: 0, 0
+  index: -1
+Light #2
+  rotate: false
+  xy: 492, 178
+  size: 130, 175
+  orig: 130, 175
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+hunters.sprite.attack_throw.png
+size: 213,412
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FX
+  rotate: false
+  xy: 2, 2
+  size: 209, 408
+  orig: 209, 408
+  offset: 0, 0
+  index: -1

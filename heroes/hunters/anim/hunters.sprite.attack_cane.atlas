@@ -1,0 +1,27 @@
+
+hunters.sprite.attack_cane.png
+size: 1187,601
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+A combat
+  rotate: false
+  xy: 821, 30
+  size: 299, 569
+  orig: 299, 569
+  offset: 0, 0
+  index: -1
+hunter_cane_hit copia
+  rotate: false
+  xy: 2, 2
+  size: 817, 597
+  orig: 817, 597
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1122, 242
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

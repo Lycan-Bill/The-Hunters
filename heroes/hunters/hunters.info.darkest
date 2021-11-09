@@ -1,0 +1,112 @@
+
+//Hunters Info
+//-------------------------------
+//
+//
+//
+//-------------------------------
+// Resistances
+resistances: .stun 40% .poison 30% .bleed 40% .disease 90% .move 20% .debuff 20% .death_blow 67% .trap 20%
+
+// Crit Effect
+crit: .effects "MyTemplate_on_crit" 
+
+// Base Stats
+weapon: .name "hunters_weapon_0" .atk 0%  .dmg 5 10 	.crit 4% .spd 2
+weapon: .name "hunters_weapon_1" .atk 0%  .dmg 6 12 	.crit 5% .spd 2 .upgradeRequirementCode 0
+weapon: .name "hunters_weapon_2" .atk 0%  .dmg 7 14	.crit 6% .spd 4 .upgradeRequirementCode 1
+weapon: .name "hunters_weapon_3" .atk 0%  .dmg 7 15	.crit 7% .spd 4 .upgradeRequirementCode 2
+weapon: .name "hunters_weapon_4" .atk 0%  .dmg 8 16 	.crit 8% .spd 6 .upgradeRequirementCode 3
+armour: .name "hunters_armour_0" .def 5%  .prot 0 	.hp 25 	 .spd 0
+armour: .name "hunters_armour_1" .def 10% .prot 0 	.hp 30 	 .spd 0 .upgradeRequirementCode 0
+armour: .name "hunters_armour_2" .def 15% .prot 0 	.hp 35 	 .spd 0 .upgradeRequirementCode 1
+armour: .name "hunters_armour_3" .def 20% .prot 0 	.hp 40 	 .spd 0 .upgradeRequirementCode 2
+armour: .name "hunters_armour_4" .def 25% .prot 0 	.hp 45 	 .spd 0 .upgradeRequirementCode 3
+
+// Skill 1 : Cane Hit
+// 
+
+combat_skill: .id "professor_cane" .level 0 .type "melee" .atk 85%  .dmg 0% .crit 5% .launch 21 .target 123 .is_crit_valid True .effect "student_go" .valid_modes professor .is_continue_turn true
+combat_skill: .id "professor_cane" .level 1 .type "melee" .atk 90%  .dmg 0% .crit 6% .launch 21 .target 123 .is_crit_valid True .effect "student_go" .valid_modes professor .is_continue_turn true
+combat_skill: .id "professor_cane" .level 2 .type "melee" .atk 95%  .dmg 0% .crit 7% .launch 21 .target 123 .is_crit_valid True .effect "student_go" .valid_modes professor .is_continue_turn true
+combat_skill: .id "professor_cane" .level 3 .type "melee" .atk 100%  .dmg 0% .crit 8% .launch 21 .target 123 .is_crit_valid True .effect "student_go" .valid_modes professor .is_continue_turn true
+combat_skill: .id "professor_cane" .level 4 .type "melee" .atk 105%  .dmg 0% .crit 9% .launch 21 .target 123 .is_crit_valid True .effect "student_go" .valid_modes professor .is_continue_turn true
+
+// Skill 2 : Holy Cross
+//
+
+combat_skill: .id "professor_cross" .level 0 .type "ranged" .atk 80% .dmg -70% .crit 2% .launch 32  .target 123 .is_crit_valid True .effect "Professor Stun 1" "Holy Cross Push Buff 1" "Holy Cross Push" "Holy Cross Push Debuff 1" "Professor Cross Stress heal 1" "student_go" .valid_modes professor .is_continue_turn true
+combat_skill: .id "professor_cross" .level 1 .type "ranged" .atk 85% .dmg -70% .crit 2% .launch 32  .target 123 .is_crit_valid True .effect "Professor Stun 2" "Holy Cross Push Buff 2" "Holy Cross Push" "Holy Cross Push Debuff 2" "Professor Cross Stress heal 2" "student_go" .valid_modes professor .is_continue_turn true
+combat_skill: .id "professor_cross" .level 2 .type "ranged" .atk 90% .dmg -70% .crit 3% .launch 32  .target 123 .is_crit_valid True .effect "Professor Stun 3" "Holy Cross Push Buff 3" "Holy Cross Push" "Holy Cross Push Debuff 3" "Professor Cross Stress heal 3" "student_go" .valid_modes professor .is_continue_turn true
+combat_skill: .id "professor_cross" .level 3 .type "ranged" .atk 95% .dmg -70% .crit 4% .launch 32  .target 123 .is_crit_valid True .effect "Professor Stun 4" "Holy Cross Push Buff 4" "Holy Cross Push" "Holy Cross Push Debuff 4" "Professor Cross Stress heal 4" "student_go" .valid_modes professor .is_continue_turn true
+combat_skill: .id "professor_cross" .level 4 .type "ranged" .atk 100% .dmg -70% .crit 5% .launch 32  .target 123 .is_crit_valid True .effect "Professor Stun 5" "Holy Cross Push Buff 5" "Holy Cross Push" "Holy Cross Push Debuff 5" "Professor Cross Stress heal 5" "student_go" .valid_modes professor .is_continue_turn true
+
+// Skill 3 :
+combat_skill: .id "professor_garlic" .level 0 .type "ranged" .atk 90% .dmg -100% .crit 0% .launch 32 .target .is_crit_valid false .effect "Garlic Riposte 1" "Hunter Resists buff 1" "student_go" .valid_modes professor .is_continue_turn true
+combat_skill: .id "professor_garlic" .level 1 .type "ranged" .atk 95% .dmg -100% .crit 0% .launch 32 .target .is_crit_valid false .effect "Garlic Riposte 2" "Hunter Resists buff 2" "student_go" .valid_modes professor .is_continue_turn true
+combat_skill: .id "professor_garlic" .level 2 .type "ranged" .atk 95% .dmg -100% .crit 0% .launch 32 .target .is_crit_valid false .effect "Garlic Riposte 3" "Hunter Resists buff 3" "student_go" .valid_modes professor .is_continue_turn true
+combat_skill: .id "professor_garlic" .level 3 .type "ranged" .atk 100% .dmg -100% .crit 0% .launch 32 .target .is_crit_valid false .effect "Garlic Riposte 4" "Hunter Resists buff 4" "student_go" .valid_modes professor .is_continue_turn true
+combat_skill: .id "professor_garlic" .level 4 .type "ranged" .atk 105% .dmg -100% .crit 0% .launch 32 .target .is_crit_valid false .effect "Garlic Riposte 5" "Hunter Resists buff 5" "student_go" .valid_modes professor .is_continue_turn true
+
+// Skill 4 :
+combat_skill: .id "professor_mark" .level 0 .type "ranged" .atk 100% .dmg -100% .crit 0% .launch 432 .target 4321  .is_crit_valid False .effect "Professor Mark Target" "Hunters Mark Crit Debuff 1" "student_go"  .valid_modes professor .is_continue_turn true
+combat_skill: .id "professor_mark" .level 1 .type "ranged" .atk 105% .dmg -100% .crit 0% .launch 432 .target 4321  .is_crit_valid False .effect "Professor Mark Target" "Hunters Mark Crit Debuff 1" "student_go" .valid_modes professor .is_continue_turn true
+combat_skill: .id "professor_mark" .level 2 .type "ranged" .atk 110% .dmg -100% .crit 0% .launch 432 .target 4321  .is_crit_valid False .effect "Professor Mark Target" "Hunters Mark Crit Debuff 1" "student_go" .valid_modes professor .is_continue_turn true
+combat_skill: .id "professor_mark" .level 3 .type "ranged" .atk 115% .dmg -100% .crit 0% .launch 432 .target 4321  .is_crit_valid False .effect "Professor Mark Target" "Hunters Mark Crit Debuff 1" "student_go" .valid_modes professor .is_continue_turn true
+combat_skill: .id "professor_mark" .level 4 .type "ranged" .atk 120% .dmg -100% .crit 0% .launch 432 .target 4321  .is_crit_valid False .effect "Professor Mark Target" "Hunters Mark Crit Debuff 1" "student_go" .valid_modes professor .is_continue_turn true
+
+
+// Skill 5 :
+combat_skill: .id "apperentice_bullet" .level 0 .type "ranged" .atk 95% .dmg 0% .crit 2% .self_target_valid false .launch 432 .target 234 .effect "professor_go" .valid_modes student
+combat_skill: .id "apperentice_bullet" .level 1 .type "ranged" .atk 100% .dmg 0% .crit 3% .self_target_valid false .launch 432 .target 234 .effect "professor_go" .valid_modes student
+combat_skill: .id "apperentice_bullet" .level 2 .type "ranged" .atk 105% .dmg 0% .crit 4% .self_target_valid false .launch 432 .target 234 .effect "professor_go" .valid_modes student
+combat_skill: .id "apperentice_bullet" .level 3 .type "ranged" .atk 110% .dmg 0% .crit 5% .self_target_valid false .launch 432 .target 34 .effect "professor_go" .valid_modes student
+combat_skill: .id "apperentice_bullet" .level 4 .type "ranged" .atk 115% .dmg 0% .crit 6% .self_target_valid false .launch 432 .target 234 .effect "professor_go" .valid_modes student
+
+// Skill 6 :
+combat_skill: .id "apperentice_stake" .level 0 .type "ranged" .atk 80% .dmg -45% .crit 2% .self_target_valid false .launch 432 .target 234 .effect "Hunters Bleed Duration 1" "Hunter Throw Stake Bleed 1" "Hunters Bleed Duration Debuff 1" "Professor Bleed Debuff 1" "professor_go" .valid_modes student
+combat_skill: .id "apperentice_stake" .level 1 .type "ranged" .atk 95% .dmg -45% .crit 3% .self_target_valid false .launch 432 .target 234 .effect "Hunters Bleed Duration 2" "Hunter Throw Stake Bleed 2" "Hunters Bleed Duration Debuff 2" "Professor Bleed Debuff 2" "professor_go" .valid_modes student
+combat_skill: .id "apperentice_stake" .level 2 .type "ranged" .atk 100% .dmg -45% .crit 4% .self_target_valid false .launch 432 .target 234 .effect "Hunters Bleed Duration 3" "Hunter Throw Stake Bleed 3" "Hunters Bleed Duration Debuff 3" "Professor Bleed Debuff 3" "professor_go" .valid_modes student
+combat_skill: .id "apperentice_stake" .level 3 .type "ranged" .atk 110% .dmg -45% .crit 5% .self_target_valid false .launch 432 .target 34 .effect "Hunters Bleed Duration 4" "Hunter Throw Stake Bleed 4" "Hunters Bleed Duration Debuff 4" "Professor Bleed Debuff 4" "professor_go" .valid_modes student
+combat_skill: .id "apperentice_stake" .level 4 .type "ranged" .atk 115% .dmg -45% .crit 6% .self_target_valid false .launch 432 .target 234 .effect "Hunters Bleed Duration 5" "Hunter Throw Stake Bleed 5" "Hunters Bleed Duration Debuff 5" "Professor Bleed Debuff 5" "professor_go" .valid_modes student
+
+
+// Skill 7 :
+combat_skill: .id "apperentice_heart" .level 0 .type "melee" .atk 95%  .dmg 45% .crit 6% .move 4 0 .launch 1 .target 1234 .effect "Hunters Stake 1" "professor_go" .ignore_protection true .valid_modes student
+combat_skill: .id "apperentice_heart" .level 1 .type "melee" .atk 100%  .dmg 45% .crit 6% .move 4 0 .launch 1 .target 1234 .effect "Hunters Stake 2" "professor_go" .ignore_protection true .valid_modes student
+combat_skill: .id "apperentice_heart" .level 2 .type "melee" .atk 110%  .dmg 45% .crit 7% .move 4 0 .launch 1 .target 1234 .effect "Hunters Stake 3" "professor_go"  .ignore_protection true .valid_modes student
+combat_skill: .id "apperentice_heart" .level 3 .type "melee" .atk 115%  .dmg 45% .crit 7% .move 4 0 .launch 1 .target 1234 .effect "Hunters Stake 4" "professor_go" .ignore_protection true .valid_modes student
+combat_skill: .id "apperentice_heart" .level 4 .type "melee" .atk 120%  .dmg 45% .crit 9% .move 4 0 .launch 1 .target 1234 .effect "Hunters Stake 5" "professor_go" .ignore_protection true .valid_modes student	 
+
+// Skill 8 :
+combat_skill: .id "apperentice_tonic" .level 0 .launch 234 .target @1234 .effect "Tonic Regen 1" "Hunters Tonic Stun Clear 1" "Tonic Blight Clear 1" "professor_go" .valid_modes student
+combat_skill: .id "apperentice_tonic" .level 1 .launch 234 .target @1234 .effect "Tonic Regen 2" "Hunters Tonic Stun Clear 2" "Tonic Blight Clear 2" "professor_go" .valid_modes student
+combat_skill: .id "apperentice_tonic" .level 2 .launch 234 .target @1234 .effect "Tonic Regen 3" "Hunters Tonic Stun Clear 3" "Tonic Blight Clear 3" "professor_go" .valid_modes student
+combat_skill: .id "apperentice_tonic" .level 3 .launch 234 .target @1234 .effect "Tonic Regen 4" "Hunters Tonic Stun Clear 4" "Tonic Blight Clear 4" "professor_go" .valid_modes student
+combat_skill: .id "apperentice_tonic" .level 4 .launch 234 .target @1234 .effect "Tonic Regen 5" "Hunters Tonic Stun Clear 5" "Tonic Blight Clear 5" "professor_go" .valid_modes student	 
+
+// Riposte Skill definition
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 95% .dmg 0% .crit 0% .launch 1234 .target 1234 .is_crit_valid True  .effect 
+
+// Move Skill 
+combat_move_skill: .id "move" .level 0 .type "move" .move 3 3 .valid_modes professor student .launch 4321 .effect "student_go" "professor_go" "student_go"
+
+// Tags
+tag: .id "light"
+tag: .id "heavy"
+tag: .id "non-religious"
+
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 2
+id_index: .index 000000000001
+
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+
+//Loot
+
+mode: .id professor .is_raid_default true
+mode: .id student .battle_complete_combat_skill_id "move"
+
+// Town
+skill_selection: .can_select_combat_skills false .number_of_selected_combat_skills_max 7
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 7 .number_of_cards_in_deck 10 .card_chance 2.0

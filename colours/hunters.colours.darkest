@@ -1,0 +1,4 @@
+colour: .id "loretext"											        .rgba #84182d
+colour: .id "disorient"											        .rgba #ff53c1
+colour:	.id "pet_a" 													.rgba	165 0 114  255
+colour: .id "scarlet"													.rgba #ff2400

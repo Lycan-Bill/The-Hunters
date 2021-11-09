@@ -1,0 +1,186 @@
+//Class Template 
+//----------------------------------------------------------------------------------------------------
+// This effect file contains the most common effect types used on classmods such as
+// 	Crit Effect, Riposte with additional Effect, Transform/Mode switches 
+// Aswell as some more coomon workarounds such as:
+//	Custom Tooltips
+// At the very bottom you find a selection of different effects and parameters, wich you can use as library 
+// Advanced users can just delete this section 
+//----------------------------------------------------------------------------------------------------
+
+
+
+//----------------------------------------------------------------------------------------------------
+//General Effects
+//----------------------------------------------------------------------------------------------------
+
+
+// CRT Effect
+effect: .name "MyTemplate_on_crit"   			.target "performer"  .chance 1000% .buff_source_type bsrc_crit .buff_ids .duration 2	.on_hit true .on_miss false .apply_once true 
+
+effect: .name "professor_go" .target "performer" .set_mode professor .chance 100% .on_hit true .on_miss true .has_description false
+effect: .name "student_go" .target "performer" .set_mode student .chance 100% .on_hit true .on_miss true .has_description false
+
+effect: .name "Hunters_keep_pass_1" .target "performer" .actor_dot hunters_pass .chance 100% .on_hit true .on_miss true .has_description false
+effect: .name "Hunters_keep_pass_2" .target "performer" .actor_dot hunters_pass_2 .chance 100% .on_hit true .on_miss true .has_description false
+effect: .name "Hunters_keep_pass_3" .target "performer" .actor_dot hunters_pass_3 .chance 100% .on_hit true .on_miss true .has_description false
+
+//-----------------------------------------------------------------------------------------------
+// Skill I
+//-----------------------------------------------------------------------------------------------
+// 
+//
+effect: .name "Hunters Stake 1".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged" .duration 3 .combat_stat_buff 1 .attack_rating_add 0.04 .crit_chance_add 6%	 .on_hit true .on_miss false
+effect: .name "Hunters Stake 2".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged" .duration 3 .combat_stat_buff 1 .attack_rating_add 0.08 .crit_chance_add 9%	 .on_hit true .on_miss false
+effect: .name "Hunters Stake 3".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged" .duration 3 .combat_stat_buff 1 .attack_rating_add 0.12 .crit_chance_add 12%	 .on_hit true .on_miss false
+effect: .name "Hunters Stake 4".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged" .duration 3 .combat_stat_buff 1 .attack_rating_add 0.16 .crit_chance_add 15%	 .on_hit true .on_miss false
+effect: .name "Hunters Stake 5".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged" .duration 3 .combat_stat_buff 1 .attack_rating_add 0.20 .crit_chance_add 18%	 .on_hit true .on_miss false
+
+effect: .name "Hunters vs Stun DMG 1"	.target "performer" .chance 100%	.curio_result_type "positive" .skill_instant true .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 12% .damage_high_multiply 12%	.on_hit true .on_miss false
+effect: .name "Hunters vs Stun DMG 2"	.target "performer" .chance 100%	.curio_result_type "positive" .skill_instant true .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 24% .damage_high_multiply 24%	.on_hit true .on_miss false
+effect: .name "Hunters vs Stun DMG 3"	.target "performer" .chance 100%	.curio_result_type "positive" .skill_instant true .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 36% .damage_high_multiply 36%	.on_hit true .on_miss false
+effect: .name "Hunters vs Stun DMG 4"	.target "performer" .chance 100%	.curio_result_type "positive" .skill_instant true .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 48% .damage_high_multiply 48%	.on_hit true .on_miss false
+effect: .name "Hunters vs Stun DMG 5"	.target "performer" .chance 100%	.curio_result_type "positive" .skill_instant true .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 60% .damage_high_multiply 60%	.on_hit true .on_miss false
+
+effect: .name "Bloodsucker Killer 1" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "vampire" .combat_stat_buff 1 .damage_low_multiply 26%	.damage_high_multiply 26% .on_hit true .on_miss false .skill_instant true
+effect: .name "Bloodsucker Killer 2" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "vampire" .combat_stat_buff 1 .damage_low_multiply 26%	.damage_high_multiply 26% .on_hit true .on_miss false .skill_instant true
+effect: .name "Bloodsucker Killer 3" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "vampire" .combat_stat_buff 1 .damage_low_multiply 32%	.damage_high_multiply 32% .on_hit true .on_miss false .skill_instant true
+effect: .name "Bloodsucker Killer 4" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "vampire" .combat_stat_buff 1 .damage_low_multiply 32%	.damage_high_multiply 32% .on_hit true .on_miss false .skill_instant true
+effect: .name "Bloodsucker Killer 5" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "vampire" .combat_stat_buff 1 .damage_low_multiply 40%	.damage_high_multiply 40% .on_hit true .on_miss false .skill_instant true
+
+effect: .name "Professor Cross Stress heal 1"  .target "performer_group" .curio_result_type "positive" .chance 100%  .healstress 3	.on_hit true .on_miss false .queue true
+effect: .name "Professor Cross Stress heal 2"  .target "performer_group" .curio_result_type "positive" .chance 100%  .healstress 3	.on_hit true .on_miss false .queue true
+effect: .name "Professor Cross Stress heal 3"  .target "performer_group" .curio_result_type "positive" .chance 100%  .healstress 4	.on_hit true .on_miss false .queue true
+effect: .name "Professor Cross Stress heal 4"  .target "performer_group" .curio_result_type "positive" .chance 100%  .healstress 5	.on_hit true .on_miss false .queue true
+effect: .name "Professor Cross Stress heal 5"  .target "performer_group" .curio_result_type "positive" .chance 100%  .healstress 6	.on_hit true .on_miss false .queue true
+
+effect: .name "Professor Cross Stun Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .buff_ids "professor_stun_debuff_1" .on_hit true .on_miss false .queue true
+effect: .name "Professor Cross Stun Debuff 2" .target "target" .curio_result_type "negative" .chance 110% .duration 3 .buff_ids "professor_stun_debuff_2" .on_hit true .on_miss false .queue true
+effect: .name "Professor Cross Stun Debuff 3" .target "target" .curio_result_type "negative" .chance 120% .duration 3 .buff_ids "professor_stun_debuff_3" .on_hit true .on_miss false .queue true
+effect: .name "Professor Cross Stun Debuff 4" .target "target" .curio_result_type "negative" .chance 130% .duration 3 .buff_ids "professor_stun_debuff_4" .on_hit true .on_miss false .queue true
+effect: .name "Professor Cross Stun Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .buff_ids "professor_stun_debuff_5" .on_hit true .on_miss false .queue true
+
+effect: .name "Professor Bleed Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .buff_ids "hunters_bleed_resist_debuff_1" .on_hit true .on_miss false .queue true
+effect: .name "Professor Bleed Debuff 2" .target "target" .curio_result_type "negative" .chance 110% .duration 3 .buff_ids "hunters_bleed_resist_debuff_2" .on_hit true .on_miss false .queue true
+effect: .name "Professor Bleed Debuff 3" .target "target" .curio_result_type "negative" .chance 120% .duration 3 .buff_ids "hunters_bleed_resist_debuff_3" .on_hit true .on_miss false .queue true
+effect: .name "Professor Bleed Debuff 4" .target "target" .curio_result_type "negative" .chance 130% .duration 3 .buff_ids "hunters_bleed_resist_debuff_4" .on_hit true .on_miss false .queue true
+effect: .name "Professor Bleed Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .buff_ids "hunters_bleed_resist_debuff_5" .on_hit true .on_miss false .queue true
+
+effect: .name "Hunter Resists Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .buff_ids "BLEEDRESIST-10" "BLIGHTRESIST-10" "DEBUFFRESIST-10" .on_hit true .on_miss false .queue true
+effect: .name "Hunter Resists Debuff 2" .target "target" .curio_result_type "negative" .chance 110% .duration 3 .buff_ids "BLEEDRESIST-15" "BLIGHTRESIST-15" "DEBUFFRESIST-15" .on_hit true .on_miss false .queue true
+effect: .name "Hunter Resists Debuff 3" .target "target" .curio_result_type "negative" .chance 120% .duration 3 .buff_ids "BLEEDRESIST-15" "BLIGHTRESIST-15" "DEBUFFRESIST-15" .on_hit true .on_miss false .queue true
+effect: .name "Hunter Resists Debuff 4" .target "target" .curio_result_type "negative" .chance 130% .duration 3 .buff_ids "BLEEDRESIST-20" "BLIGHTRESIST-20" "DEBUFFRESIST-20" .on_hit true .on_miss false .queue true
+effect: .name "Hunter Resists Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .buff_ids "BLEEDRESIST-20" "BLIGHTRESIST-20" "DEBUFFRESIST-20" .on_hit true .on_miss false .queue true
+
+effect: .name "Hunter Resists buff 1" .target "performer_group" .curio_result_type "negative" .chance 100% .duration 3 .buff_ids "professor_garlic_blight_resist_1" "professor_garlic_bleed_resist_1" .on_hit true .on_miss false .queue true
+effect: .name "Hunter Resists buff 2" .target "performer_group" .curio_result_type "negative" .chance 110% .duration 3 .buff_ids "professor_garlic_blight_resist_2" "professor_garlic_bleed_resist_2" .on_hit true .on_miss false .queue true
+effect: .name "Hunter Resists buff 3" .target "performer_group" .curio_result_type "negative" .chance 120% .duration 3 .buff_ids "professor_garlic_blight_resist_3" "professor_garlic_bleed_resist_3" .on_hit true .on_miss false .queue true
+effect: .name "Hunter Resists buff 4" .target "performer_group" .curio_result_type "negative" .chance 130% .duration 3 .buff_ids "professor_garlic_blight_resist_4" "professor_garlic_bleed_resist_4" .on_hit true .on_miss false .queue true
+effect: .name "Hunter Resists buff 5" .target "performer_group" .curio_result_type "negative" .chance 140% .duration 3 .buff_ids "professor_garlic_blight_resist_5" "professor_garlic_bleed_resist_5" .on_hit true .on_miss false .queue true
+
+effect: .name "Hunter Dmg Marked 1" .target "performer" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "professor_point_mark_1" .on_hit true .on_miss false .queue true
+effect: .name "Hunter Dmg Marked 2" .target "performer" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "professor_point_mark_2" .on_hit true .on_miss false .queue true
+effect: .name "Hunter Dmg Marked 3" .target "performer" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "professor_point_mark_3" .on_hit true .on_miss false .queue true
+effect: .name "Hunter Dmg Marked 4" .target "performer" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "professor_point_mark_4" .on_hit true .on_miss false .queue true
+effect: .name "Hunter Dmg Marked 5" .target "performer" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "professor_point_mark_5" .on_hit true .on_miss false .queue true
+
+effect: .name "hunter_vampire_cure_self" .target "performer" .curio_result_type "positive" .chance 100% .remove_vampire 1  .on_hit true .on_miss true .queue true .has_description false
+effect: .name "hunter_vampire_cure" .target "target" .curio_result_type "positive" .chance 100% .remove_vampire 1  .on_hit true .on_miss true .queue true .has_description false
+
+effect: .name "Hunter Throw Stake Bleed 1" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 2 .duration 2	.on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Hunter Throw Stake Bleed 2" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Hunter Throw Stake Bleed 3" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Hunter Throw Stake Bleed 4" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Hunter Throw Stake Bleed 5" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .queue true
+
+effect: .name "Hunters Bleed Duration 1" .target "performer" .chance 100% .buff_ids "hunters_stake_Bleed_1" .on_hit true .on_miss false .queue true .skill_instant true
+effect: .name "Hunters Bleed Duration 2" .target "performer" .chance 110% .buff_ids "hunters_stake_Bleed_2" .on_hit true .on_miss false .queue true .skill_instant true
+effect: .name "Hunters Bleed Duration 3" .target "performer" .chance 120% .buff_ids "hunters_stake_Bleed_3" .on_hit true .on_miss false .queue true .skill_instant true
+effect: .name "Hunters Bleed Duration 4" .target "performer" .chance 130% .buff_ids "hunters_stake_Bleed_4" .on_hit true .on_miss false .queue true .skill_instant true
+effect: .name "Hunters Bleed Duration 5" .target "performer" .chance 140% .buff_ids "hunters_stake_Bleed_5" .on_hit true .on_miss false .queue true .skill_instant true
+
+effect: .name "Hunters Bleed Duration Debuff 1" .target "performer" .chance 100% .buff_ids "hunters_stake_Bleed_debuff_1" .on_hit true .on_miss false .queue true .skill_instant true
+effect: .name "Hunters Bleed Duration Debuff 2" .target "performer" .chance 110% .buff_ids "hunters_stake_Bleed_debuff_2" .on_hit true .on_miss false .queue true .skill_instant true
+effect: .name "Hunters Bleed Duration Debuff 3" .target "performer" .chance 120% .buff_ids "hunters_stake_Bleed_debuff_3" .on_hit true .on_miss false .queue true .skill_instant true
+effect: .name "Hunters Bleed Duration Debuff 4" .target "performer" .chance 130% .buff_ids "hunters_stake_Bleed_debuff_4" .on_hit true .on_miss false .queue true .skill_instant true
+effect: .name "Hunters Bleed Duration Debuff 5" .target "performer" .chance 140% .buff_ids "hunters_stake_Bleed_debuff_5" .on_hit true .on_miss false .queue true .skill_instant true
+
+
+effect: .name "Holy Cross Push" .target "target"  .push 1 	.chance -600%   .on_hit true .on_miss false .on_hit true .on_miss false .can_apply_on_death true .queue true
+
+effect: .name "Holy Cross Push Buff 1" .target "performer" .curio_result_type "negative" .chance 700% .buff_ids "HUNTERS_PUSH_VS_VAMPIRE_1" .on_hit true .on_miss false .queue true .skill_instant true
+effect: .name "Holy Cross Push Buff 2" .target "performer" .curio_result_type "negative" .chance 710% .buff_ids "HUNTERS_PUSH_VS_VAMPIRE_2".on_hit true .on_miss false .queue true .skill_instant true
+effect: .name "Holy Cross Push Buff 3" .target "performer" .curio_result_type "negative" .chance 720% .buff_ids "HUNTERS_PUSH_VS_VAMPIRE_3" .on_hit true .on_miss false .queue true .skill_instant true
+effect: .name "Holy Cross Push Buff 4" .target "performer" .curio_result_type "negative" .chance 730% .buff_ids "HUNTERS_PUSH_VS_VAMPIRE_4" .on_hit true .on_miss false .queue true .skill_instant true
+effect: .name "Holy Cross Push Buff 5" .target "performer" .curio_result_type "negative" .chance 740% .buff_ids "HUNTERS_PUSH_VS_VAMPIRE_5" .on_hit true .on_miss false .queue true .skill_instant true
+
+effect: .name "Holy Cross Push Debuff 1" .target "performer" .curio_result_type "negative" .chance 700% .buff_ids "HUNTERS_PUSH_VS_VAMPIRE_DEBUFF_1" .on_hit true .on_miss false .queue true .skill_instant true
+effect: .name "Holy Cross Push Debuff 2" .target "performer" .curio_result_type "negative" .chance 710% .buff_ids "HUNTERS_PUSH_VS_VAMPIRE_DEBUFF_2".on_hit true .on_miss false .queue true .skill_instant true
+effect: .name "Holy Cross Push Debuff 3" .target "performer" .curio_result_type "negative" .chance 720% .buff_ids "HUNTERS_PUSH_VS_VAMPIRE_DEBUFF_3" .on_hit true .on_miss false .queue true .skill_instant true
+effect: .name "Holy Cross Push Debuff 4" .target "performer" .curio_result_type "negative" .chance 730% .buff_ids "HUNTERS_PUSH_VS_VAMPIRE_DEBUFF_4" .on_hit true .on_miss false .queue true .skill_instant true
+effect: .name "Holy Cross Push Debuff 5" .target "performer" .curio_result_type "negative" .chance 740% .buff_ids "HUNTERS_PUSH_VS_VAMPIRE_DEBUFF_5" .on_hit true .on_miss false .queue true .skill_instant true
+
+effect: .name "Hunters Heal Debuff" .target performer .chance 100% .buff_ids hunters_heal_done_debuff .apply_once true .on_hit true .on_miss true .queue true
+
+effect: .name "Garlic Riposte 1"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 2 .damage_low_add -100.00 .damage_high_add -100.00 .attack_rating_add 0.20 .crit_chance_add 0% .riposte_effect "Garlic Blight 1" "Hunter Resists Debuff 1"
+effect: .name "Garlic Riposte 2"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 2 .damage_low_add -100.00 .damage_high_add -100.00 .attack_rating_add 0.20 .crit_chance_add 0% .riposte_effect "Garlic Blight 2" "Hunter Resists Debuff 2"
+effect: .name "Garlic Riposte 3"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 2 .damage_low_add -100.00 .damage_high_add -100.00 .attack_rating_add 0.25 .crit_chance_add 0% .riposte_effect "Garlic Blight 3" "Hunter Resists Debuff 3"
+effect: .name "Garlic Riposte 4"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 3 .damage_low_add -100.00 .damage_high_add -100.00 .attack_rating_add 0.30 .crit_chance_add 0% .riposte_effect "Garlic Blight 4" "Hunter Resists Debuff 4"
+effect: .name "Garlic Riposte 5"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 3 .damage_low_add -100.00 .damage_high_add -100.00 .attack_rating_add 0.35 .crit_chance_add 0% .riposte_effect "Garlic Blight 5" "Hunter Resists Debuff 5"
+
+effect: .name "Garlic Blight 1" .target "target" .curio_result_type "negative" .chance 100%  .dotPoison 2 .buff_ids "BLEEDRESIST-10" "BLIGHTRESIST-10" "DEBUFFRESIST-10" .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Garlic Blight 2" .target "target" .curio_result_type "negative" .chance 110%  .dotPoison 2 .buff_ids "BLEEDRESIST-10" "BLIGHTRESIST-10" "DEBUFFRESIST-10" .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Garlic Blight 3" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 3 .buff_ids "BLEEDRESIST-10" "BLIGHTRESIST-10" "DEBUFFRESIST-10" .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Garlic Blight 4" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 3 .buff_ids "BLEEDRESIST-10" "BLIGHTRESIST-10" "DEBUFFRESIST-10" .duration 3	.on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "Garlic Blight 5" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 4 .buff_ids "BLEEDRESIST-10" "BLIGHTRESIST-10" "DEBUFFRESIST-10" .duration 3	.on_hit true .on_miss false .can_apply_on_death true 
+
+effect: .name "Garlic Slow 1" .target "target" .curio_result_type "negative" .chance 110% .debuffenemy 1 .speed_rating_add -3	.on_hit true .on_miss false
+effect: .name "Garlic Slow 2" .target "target" .curio_result_type "negative" .chance 120% .debuffenemy 1 .speed_rating_add -4	.on_hit true .on_miss false
+effect: .name "Garlic Slow 3" .target "target" .curio_result_type "negative" .chance 130% .debuffenemy 1 .speed_rating_add -4	.on_hit true .on_miss false
+effect: .name "Garlic Slow 4" .target "target" .curio_result_type "negative" .chance 140% .debuffenemy 1 .speed_rating_add -6	.on_hit true .on_miss false
+effect: .name "Garlic Slow 5" .target "target" .curio_result_type "negative" .chance 150% .debuffenemy 1 .speed_rating_add -6	.on_hit true .on_miss false
+
+effect: .name "Hunters Stun Vs Vampire 1" .target "performer" .curio_result_type "positive" .chance 110% .skill_instant true .buff_ids "HUNTERS_STUN_VS_VAMPIRE_1" .on_hit true .on_miss false 
+effect: .name "Hunters Stun Vs Vampire 3" .target "performer" .curio_result_type "positive" .chance 110% .skill_instant true .buff_ids "HUNTERS_STUN_VS_VAMPIRE_3" .on_hit true .on_miss false 
+effect: .name "Hunters Stun Vs Vampire 4" .target "performer" .curio_result_type "postivie" .chance 110% .skill_instant true .buff_ids "HUNTERS_STUN_VS_VAMPIRE_4" .on_hit true .on_miss false 
+effect: .name "Hunters Stun Vs Vampire 5" .target "performer" .curio_result_type "positive" .chance 110% .skill_instant true .buff_ids "HUNTERS_STUN_VS_VAMPIRE_5" .on_hit true .on_miss false
+ 
+effect: .name "Hunters Mark Crit Debuff 1" .target "target" .curio_result_type "negative" .chance 110% .duration 3 .buff_ids "Hunters_crits_received_1" .on_hit true .on_miss false .queue true
+effect: .name "Hunters Mark Crit Debuff 2" .target "target" .curio_result_type "negative" .chance 110% .duration 3 .buff_ids "Hunters_crits_received_2" .on_hit true .on_miss false .queue true
+effect: .name "Hunters Mark Crit Debuff 3" .target "target" .curio_result_type "negative" .chance 120% .duration 3 .buff_ids "Hunters_crits_received_3" .on_hit true .on_miss false .queue true
+effect: .name "Hunters Mark Crit Debuff 4" .target "target" .curio_result_type "negative" .chance 130% .duration 3 .buff_ids "Hunters_crits_received_4" .on_hit true .on_miss false .queue true
+effect: .name "Hunters Mark Crit Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .buff_ids "Hunters_crits_received_5" .on_hit true .on_miss false .queue true
+
+effect: .name "Professor Stun 1" .target "target" .curio_result_type "negative" .chance 110% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Professor Stun 2" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Professor Stun 3" .target "target" .curio_result_type "negative" .chance 130% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Professor Stun 4" .target "target" .curio_result_type "negative" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Professor Stun 5" .target "target" .curio_result_type "negative" .chance 150% .stun 1	.on_hit true .on_miss false .queue true
+
+effect: .name "Tonic Regen 1" .target "target" .curio_result_type "positive"	 .chance 100%  .dotHpHeal 2 .duration 2 .on_hit true .on_miss false .queue true 
+effect: .name "Tonic Regen 2" .target "target" .curio_result_type "positive"	 .chance 100%  .dotHpHeal 3 .duration 2 .on_hit true .on_miss false .queue true 
+effect: .name "Tonic Regen 3" .target "target" .curio_result_type "positive"	 .chance 100%  .dotHpHeal 4 .duration 2 .on_hit true .on_miss false .queue true 
+effect: .name "Tonic Regen 4" .target "target" .curio_result_type "positive"	 .chance 100%  .dotHpHeal 5 .duration 2 .on_hit true .on_miss false .queue true 
+effect: .name "Tonic Regen 5" .target "target" .curio_result_type "positive	 .chance 100%  .dotHpHeal 6 .duration 2 .on_hit true .on_miss false .queue true 
+
+effect: .name "Hunters Tonic Stun Clear 1" .target "target" .chance 70% .unstun 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Hunters Tonic Stun Clear 2" .target "target" .chance 75% .unstun 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Hunters Tonic Stun Clear 3" .target "target" .chance 80% .unstun 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Hunters Tonic Stun Clear 4" .target "target" .chance 85% .unstun 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Hunters Tonic Stun Clear 5" .target "target" .chance 90% .unstun 1 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Tonic Blight Clear 1" .target "target" .chance 40% .cure_poison 1 .on_hit true .on_miss false  .queue true .individual_target_actor_rolls true
+effect: .name "Tonic Blight Clear 2" .target "target" .chance 45% .cure_poison 1 .on_hit true .on_miss false  .queue true .individual_target_actor_rolls true
+effect: .name "Tonic Blight Clear 3" .target "target" .chance 50% .cure_poison 1 .on_hit true .on_miss false  .queue true .individual_target_actor_rolls true
+effect: .name "Tonic Blight Clear 4" .target "target" .chance 65% .cure_poison 1 .on_hit true .on_miss false  .queue true .individual_target_actor_rolls true
+effect: .name "Tonic Blight Clear 5" .target "target" .chance 70% .cure_poison 1 .on_hit true .on_miss false  .queue true .individual_target_actor_rolls true
+
+//
+effect: .name "Professor Mark Target"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 3	.on_hit true .on_miss false
+
+//Stake to the heart buffs
+effect: .name "Heart Impale Damage" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "heart_stake_dmgS_L" "heart_stake_dmgS_H" .duration -1 .on_hit true .on_miss false .apply_once true .queue true
+//BFG Crit Buff
+effect: .name "Heart Impale Crit" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "heart_stake_crit" .duration -1 .on_hit true .on_miss false .apply_once true .queue true
+//BFG Acc Buff
+effect: .name "Heart Impale Acc" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "heart_stake_acc" .duration -1 .on_hit true .on_miss false .apply_once true .queue true
