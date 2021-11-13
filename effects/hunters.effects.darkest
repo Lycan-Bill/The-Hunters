@@ -109,7 +109,7 @@ effect: .name "Hunters Bleed Duration Debuff 5" .target "performer" .chance 140%
 effect: .name "Holy Cross Push" .target "target"  .push 1 	.chance -600%   .on_hit true .on_miss false .on_hit true .on_miss false .can_apply_on_death true .queue true
 
 effect: .name "Holy Cross Push Buff 1" .target "performer" .curio_result_type "negative" .chance 700% .buff_ids "HUNTERS_PUSH_VS_VAMPIRE_1" .on_hit true .on_miss false .queue true .skill_instant true
-effect: .name "Holy Cross Push Buff 2" .target "performer" .curio_result_type "negative" .chance 710% .buff_ids "HUNTERS_PUSH_VS_VAMPIRE_2".on_hit true .on_miss false .queue true .skill_instant true
+effect: .name "Holy Cross Push Buff 2" .target "performer" .curio_result_type "negative" .chance 710% .buff_ids "HUNTERS_PUSH_VS_VAMPIRE_2" .on_hit true .on_miss false .queue true .skill_instant true
 effect: .name "Holy Cross Push Buff 3" .target "performer" .curio_result_type "negative" .chance 720% .buff_ids "HUNTERS_PUSH_VS_VAMPIRE_3" .on_hit true .on_miss false .queue true .skill_instant true
 effect: .name "Holy Cross Push Buff 4" .target "performer" .curio_result_type "negative" .chance 730% .buff_ids "HUNTERS_PUSH_VS_VAMPIRE_4" .on_hit true .on_miss false .queue true .skill_instant true
 effect: .name "Holy Cross Push Buff 5" .target "performer" .curio_result_type "negative" .chance 740% .buff_ids "HUNTERS_PUSH_VS_VAMPIRE_5" .on_hit true .on_miss false .queue true .skill_instant true
